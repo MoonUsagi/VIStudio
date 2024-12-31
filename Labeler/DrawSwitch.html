@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <style>
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 74px;
+            height: 28px;
+        }
+
+            .switch input {
+                display: none;
+            }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ca2222;
+            -webkit-transition: .4s;
+            transition: .4s;
+            border-radius: 34px;
+        }
+
+            .slider:before {
+                position: absolute;
+                content: "";
+                height: 18px;
+                width: 18px;
+                left: 4px;
+                bottom: 5px;
+                background-color: white;
+                -webkit-transition: .4s;
+                transition: .4s;
+                border-radius: 50%;
+            }
+
+        input:checked + .slider {
+            background-color: #2ab934;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(18px);
+            -ms-transform: translateX(18px);
+            transform: translateX(48px);
+        }
+
+        /*------ ADDED CSS ---------*/
+        .slider:after {
+            content: 'OFF';
+            color: white;
+            display: block;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top: 50%;
+            left: 50%;
+            font-size: 12px;
+            font-family: 'Microsoft JhengHei';
+        }
+
+        input:checked + .slider:after {
+            content: 'ON';
+        }
+
+        /*--------- END --------*/
+    </style>
+</head>
+
+<body>
+    <label class="switch">
+        <input type="checkbox" id="SwitchValue">
+        <span class="slider round"></span>
+    </label>
+    <script>
+        function setup(htmlComponent) {
+            document.getElementById("SwitchValue").addEventListener("click", function (event) {
+                htmlComponent.Data = document.getElementById("SwitchValue").checked;
+            });
+            htmlComponent.addEventListener("DataChanged", function (event) {
+                 document.getElementById("SwitchValue").checked =  htmlComponent.Data;
+            });
+        }
+    </script>
+</body>
+</html>
