@@ -3,7 +3,7 @@ Bulit on 2025/01 by Fred Liu(Algorithm) & Tim Yeh(AppDesigner)
 
 No Code Image Deep Learning APP  
   
-Four Key Features:  
+__Four Key Features__:  
 1. Image Labeler  
 2. Classification Algorithm  
 3. Object Detection Algorithm  
@@ -11,12 +11,12 @@ Four Key Features:
   
   
   
-VIStudio Vision:The current version is 0.8v (test version).  
+__VIStudio Vision__:The current version is 0.8v (test version).  
 Some features are not yet implemented (e.g., anomaly detection and EfficitionAD).  
-MATLAB Vision: MATLAB 2024b  
+__MATLAB Vision__: MATLAB 2024b  
   
-Requirement Toolbox: Deep Learning , Image Processing, Computer Vision, Parallel Computing  
-Requirement Support Package: Automated Visual Inspection Library &  pretrain modle Package  
+__Requirement Toolbox__: Deep Learning , Image Processing, Computer Vision, Parallel Computing  
+__Requirement Support Package__: Automated Visual Inspection Library &  pretrain modle Package  
   
 YOLOX & FCDD & PatchCore:  
 [Computer Vision Toolbox Automated Visual Inspection Library](https://www.mathworks.com/matlabcentral/fileexchange/116555-computer-vision-toolbox-automated-visual-inspection-library?s_tid=ta_fx_results)  
