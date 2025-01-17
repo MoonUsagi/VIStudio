@@ -12,7 +12,7 @@ __Four Key Features__:
   
   
 __VIStudio Vision__:The current version is 0.8v (test version).  
-Some features are not yet implemented (e.g., anomaly detection and EfficitionAD).  
+Some features are not yet implemented (e.g., anomaly detection EfficitionAD).  
 __MATLAB Vision__: MATLAB 2024b  
   
 __Requirement Toolbox__: Deep Learning , Image Processing, Computer Vision, Parallel Computing  
