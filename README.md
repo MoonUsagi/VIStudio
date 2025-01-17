@@ -1,6 +1,17 @@
 # VIStudio
 Bulit on 2025/01 by Fred Liu(Algorithm) & Tim Yeh(AppDesigner) 
 
+No Code Image Deep Learning APP  
+  
+Four Key Features:  
+1. Image Labeler  
+2. Classification Algorithm  
+3. Object Detection Algorithm  
+4. Anomaly Detection Algorithm  
+
+
+
+
 版本(Vision): MATLAB 2024b
 需要工具箱: Deeplearning , Image Processing, Computer Vision, Parallel Computing  
 需要支援包: Automated Visual Inspection Library &  pretrain modle Package  
