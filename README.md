@@ -4,6 +4,7 @@ Bulit on 2025/01 by Fred Liu(Algorithm) & Tim Yeh(AppDesigner)
 版本(Vision): MATLAB 2024b
 需要工具箱: Deeplearning , Image Processing, Computer Vision, Parallel Computing  
 需要支援包: Automated Visual Inspection Library &  pretrain modle Package  
+  
 YOLOX & FCDD & PatchCore:  
 [Computer Vision Toolbox Automated Visual Inspection Library](https://www.mathworks.com/matlabcentral/fileexchange/116555-computer-vision-toolbox-automated-visual-inspection-library?s_tid=ta_fx_results)  
 
