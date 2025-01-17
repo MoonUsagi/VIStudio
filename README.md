@@ -1,5 +1,5 @@
 # VIStudio
-Bulit on 2025/01 by Fred Liu(Algorithm) & Tim Yeh(AppDesigner) 
+Bulit on 2025/01 by **Fred Liu**(Algorithm) & **Tim Yeh**(AppDesigner) 
 
 No Code Image Deep Learning APP  
   
