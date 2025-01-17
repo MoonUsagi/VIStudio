@@ -1,6 +1,6 @@
 # VIStudio
-Bulit on 2025/01 by **Fred Liu**(Algorithm) & **Tim Yeh**(AppDesigner) 
-
+Bulit on 2025/01 by **Fred Liu** & **Tim Yeh**  
+  
 No Code Image Deep Learning APP  
   
 __Four Key Features__:  
