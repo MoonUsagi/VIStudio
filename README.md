@@ -53,10 +53,14 @@ __(Optional)Pretrain Model Packages__:
      - **VIStudio Labeler** exports a table named **`exportROI`**  
      - **MATLAB Image Labeler** exports a table named **`gTruth`**   
    - The app accepts either `exportROI` or `gTruth` when you import the `.mat`.  
+    ![](https://github.com/MoonUsagi/VIStudio/blob/main/Image/Labeler.JPG)
+
 
 3. **Try Classification with a sample dataset**
    - Use the **Dog_Images** sample as your classification dataset
-     (folders-as-labels are supported: one subfolder per class).
+     (folders-as-labels are supported: one subfolder per class).  
+    ![](https://github.com/MoonUsagi/VIStudio/blob/main/Image/Classication_2.JPG)
+    ![](https://github.com/MoonUsagi/VIStudio/blob/main/Image/Classication_1.JPG)
 
 4. **Train Object Detection with ground truth**
    - (Sample data) You can annotate images in `Dataset\RabbitDS` using **Labeler**,
@@ -66,8 +70,8 @@ __(Optional)Pretrain Model Packages__:
      (`exportROI` from VIStudio Labeler or `gTruth` from MATLAB Image Labeler).  
 
    - Configure Train/Val/Test split and start training (YOLOX).
-
-
+     ![](https://github.com/MoonUsagi/VIStudio/blob/main/Image/ObjectDetection_1.JPG)
+     ![](https://github.com/MoonUsagi/VIStudio/blob/main/Image/ObjectDetection_2.JPG)   
 
 
 📌 Status / Roadmap
