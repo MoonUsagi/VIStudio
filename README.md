@@ -1,20 +1,26 @@
 # VIStudio
-No Code Image Deep Learning APP  
-Major update 2025/10 by **Fred Liu**
+_No-code Image Deep Learning App (MATLAB)_  
+**Major Update:** 2025-10 
+  
+---
   
   
-✨　__Four Key Features__:
----  
-**1. Image Labeler -** Create/clean datasets and export ground truth.  
-**2. Classification Algorithm -** Train with popular backbones.  
-**3. Object Detection Algorithm -** YOLOX training.  
-**4. !(NOT READY) Anomaly Detection Algorithm -** FCDD / PatchCore (EfficientAD planned).
+## ✨ Key Features
+
+1. **Image Labeler** — Create/clean datasets and export ground truth.
+2. **Classification** — Train with popular backbones.
+3. **Object Detection (YOLOX)** — Train & evaluate with built-in tools.
+4. **Anomaly Detection** — 🚧 *WIP* (FCDD / PatchCore in progress; EfficientAD planned).
 
 
-__VIStudio Vision__:The current version is 1.0v (test version).  
-Some features are not yet implemented(Anomaly detection)
+## 🏷️ Version
+**v1.0 (test)** —   
+✅Image Labeler  
+✅Classification  (other model not import)  
+✅Object Detection  (other model not import)  
+❌Anomaly Detection
   
-  
+
 🔧 Requirements
 ---
 __MATLAB__: MATLAB 2024b  
@@ -38,6 +44,12 @@ __(Optional)Pretrain Model Packages__:
   
 🚀Quick Start
 ---
+Getting Start
+
+
+
+
+
 
 
 
@@ -46,9 +58,9 @@ __(Optional)Pretrain Model Packages__:
 
 📌 Status / Roadmap
 ---
-✅ Image Classication (training + valuation + explained)
+✅ Image Classication v1.0 (training + valuation + explained)
 
-✅ YOLOX Object Detection (training + evaluation)
+✅ YOLOX Object Detection v1.0 (training + evaluation)
 
 🚧  Anomaly Detection Pipeline v1.0 — *in progress*
   
@@ -58,4 +70,4 @@ __(Optional)Pretrain Model Packages__:
 ## 🗓️ Project Timeline
 
 - **2025-10** — **Major update**
-- **2025-01** — **Initial build** by **Fred Liu** & **Tim Yeh** (Labeler and 1st vision Interface)
+- **2025-01** — **Initial build** by **Fred Liu** & **Tim Yeh**
