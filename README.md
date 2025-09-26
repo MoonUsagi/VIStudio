@@ -14,7 +14,7 @@ _No-code Image Deep Learning App (MATLAB)_
 
 
 ## 🏷️ Version
-**v1.0 (test) - **   
+**v1.0 (test) -**   
 ✅Image Labeler  
 ✅Classification  (other model not import)  
 ✅Object Detection  (other model not import)  
