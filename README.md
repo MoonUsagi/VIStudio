@@ -4,7 +4,6 @@ _No-code Image Deep Learning App (MATLAB)_
   
 ---
   
-  
 ## ✨ Key Features
 
 1. **Image Labeler** — Create/clean datasets and export ground truth.
@@ -29,10 +28,9 @@ __Toolbox__: Deep Learning , Image Processing, Computer Vision, Parallel Computi
   
 __Support Package__: Automated Visual Inspection Library &  pretrain model packages
   
-  
 __Automated Visual Inspection Library__:    
 - [Computer Vision Toolbox Automated Visual Inspection Library](https://www.mathworks.com/matlabcentral/fileexchange/116555-computer-vision-toolbox-automated-visual-inspection-library?s_tid=ta_fx_results)  
-
+  
 __(Optional)Pretrain Model Packages__:  
 - [resnet18](https://www.mathworks.com/matlabcentral/fileexchange/68261-deep-learning-toolbox-model-for-resnet-18-network?s_tid=srchtitle)  
 - [resnet50](https://www.mathworks.com/matlabcentral/fileexchange/64626-deep-learning-toolbox-model-for-resnet-50-network?s_tid=srchtitle)  
