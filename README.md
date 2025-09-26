@@ -44,6 +44,8 @@ __(Optional)Pretrain Model Packages__:
 ---
 1. **Open the app**
    - Launch `VIStudio_demo.mlapp` — this is the entry screen.
+    ![App screenshot](assets/screenshot.png)
+
 
 2. **Label data (Object Detection)**
    - Use **Labeler** to draw bounding boxes on your images.
