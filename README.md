@@ -42,14 +42,28 @@ __(Optional)Pretrain Model Packages__:
   
 🚀Quick Start
 ---
-Getting Start
+1. **Open the app**
+   - Launch `VIStudio_demo.mlapp` — this is the entry screen.
 
+2. **Label data (Object Detection)**
+   - Use **Labeler** to draw bounding boxes on your images.
+   - Export ground truth via **Labeler → Export → Ground Truth (.mat)**
+     - **VIStudio Labeler** exports a table named **`exportROI`**  
+     - **MATLAB Image Labeler** exports a table named **`gTruth`**   
+   - The app accepts either `exportROI` or `gTruth` when you import the `.mat`.  
 
+3. **Try Classification with a sample dataset**
+   - Use the **Dog_Images** sample as your classification dataset
+     (folders-as-labels are supported: one subfolder per class).
 
+4. **Train Object Detection with ground truth**
+   - (Sample data) You can annotate images in `Dataset\RabbitDS` using **Labeler**,
+     then export the ground truth (`exportROI` or `gTruth`) for training.  
 
+   - Click **Import Ground Truth** and select the `.mat` you exported above
+     (`exportROI` from VIStudio Labeler or `gTruth` from MATLAB Image Labeler).  
 
-
-
+   - Configure Train/Val/Test split and start training (YOLOX).
 
 
 
