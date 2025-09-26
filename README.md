@@ -43,8 +43,8 @@ __(Optional)Pretrain Model Packages__:
 🚀Quick Start
 ---
 1. **Open the app**
-   - Launch `VIStudio_demo.mlapp` — this is the entry screen.
-    ![App screenshot](assets/screenshot.png)
+   - Launch `VIStudio_demo.mlapp` — this is the entry screen.  
+    ![](https://github.com/MoonUsagi/VIStudio/blob/main/Image/Interface.JPG)
 
 
 2. **Label data (Object Detection)**
